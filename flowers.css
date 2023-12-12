@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+#flower-container {
+    position: absolute;
+}
+
+#generate-flowers {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.flower {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff69b4; /* Pink color, you can change it */
+    border-radius: 50%;
+    animation: fall 5s linear;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-5%);
+    }
+    to {
+        transform: translateY(111110%);
+    }
+}
